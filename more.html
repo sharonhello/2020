@@ -13,16 +13,26 @@
 <body>
 
 
-  <header>
-    <nav>
-      <p class="title"><a href="index.html">Back</a></p>
+  <div class="bio">
 
+    <p class="title"><a href="index.html">Back</a></p>
 
-      <p>
-        This is a ongoing page of what else I'm making. <br><i>Last Update: Nov 13th 2020</i></p>
-    </nav>
+    <img src="images/home/sharon.jpeg" width="100px;">
+    <p>
+      Hi! I am a designer and maker, based in NYC. I am interested in a broad range of things
+      – print media, creative technology, and the mix of disciplines.
+      I just received my BFA in graphic design from Boston University.
+      <br>
+      <br>
+      <a href="https://www.instagram.com/littleshaaron/" target="_blank">IG</a>, <a
+        href="mailto:infolittlesharon@gmail.com">EMAIL</a>,
+      <a href="">WNW</a>
+    </p>
 
-  </header>
+    <p>
+      This is a ongoing page of what else I'm making. <br><i>Last Update: Nov 13th 2020</i></p>
+  </div>
+
   <button id="button">TOP ￪</button>
   <section class="more-content">
     <img src="images/bts/bts_05.JPG" width="100%;">
@@ -140,7 +150,7 @@
         $("body").addClass("open");
 
         //toggle between messages
-        $(".open-message").css("display", "block");
+        $(".open-message").css("display", "inline-block");
         $(".closed-message").css("display", "none");
       } else {
 

@@ -19,10 +19,16 @@
 </head>
 
 <body>
+
+
         <header>
+                <small> This site is open from <span class="fancy">7am EST – 7pm EST.</span> It is
+                        <span id="time"></span>. <span class="open-message fancy"> Welcome!</span>
+                        <span class="closed-message"> We are currently <span class="fancy">closed,</span> but
+                                feel free to browse.</span></small>
                 <nav>
                         <p class="title">Sharon Zhong</p>
-                        <p class="bio">
+                        <!-- <p class="bio">
                                 Hi! I am a designer and maker, based in NYC. I am interested in a broad range of things
                                 – print media, creative technology, and the mix of disciplines.
                                 I just received my BFA in graphic design from Boston University.
@@ -36,7 +42,9 @@
                                 <a href="more.html">Newspaper</a>, <a href="https://www.instagram.com/littleshaaron/"
                                         target="_blank">IG</a>, <a href="mailto:infolittlesharon@gmail.com">EMAIL</a>,
                                 <a href="">WNW</a>
-                        </p>
+                        </p> -->
+
+                        <p><a href="more.html">Info & ETC.</a></p>
                 </nav>
 
         </header>
@@ -123,7 +131,7 @@
                         </h2>
                         <p class="p1">
                                 <i>Brand identity<br>
-                                        xxx 2019</i>
+                                        September, 2019</i>
                         </p>
                         <p class="p2">
                                 Branding identity for a local Japanese fish market. The identity is playful and flexible
@@ -369,13 +377,13 @@
                         $("#time").text(time);
 
                         //check if opened, else closed
-                        if (today >= 7 && today <= 17) {
+                        if (today >= 7 && today <= 19) {
                                 //remove and add class to change the gradient of the bg
                                 $("body").removeClass("closed");
                                 $("body").addClass("open");
 
                                 //toggle between messages
-                                $(".open-message").css("display", "block");
+                                $(".open-message").css("display", "inline-block");
                                 $(".closed-message").css("display", "none");
                         } else {
 
