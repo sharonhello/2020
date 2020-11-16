@@ -22,7 +22,7 @@
 
 
         <header>
-                <small> This site is open from <span class="fancy">7am EST – 7pm EST.</span> It is
+                <small> This site is open from <span class="fancy">7am EST – 6pm EST.</span> It is
                         <span id="time"></span>. <span class="open-message fancy"> Welcome!</span>
                         <span class="closed-message"> We are currently <span class="fancy">closed,</span> but
                                 feel free to browse.</span></small>
@@ -377,7 +377,7 @@
                         $("#time").text(time);
 
                         //check if opened, else closed
-                        if (today >= 7 && today <= 19) {
+                        if (today >= 7 && today <= 17) {
                                 //remove and add class to change the gradient of the bg
                                 $("body").removeClass("closed");
                                 $("body").addClass("open");
