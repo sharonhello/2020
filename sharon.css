@@ -159,43 +159,13 @@ iframe {
 .more-content {
   width: 70%;
   margin: auto auto;
-}
+  display: flex;
 
-.more-gallery1 {
-
-  width: 400px;
-  height: 300px;
-  overflow: scroll;
-  border: 1px solid black;
-  border-radius: 20px;
 }
 
 
-.more-gallery2 {
-
-  width: 60%;
-  height: 400px;
-  ;
-  overflow: scroll;
-  border: 1px solid black;
-  border-radius: 20px;
-}
 
 
-.more-gallery3 {
-
-  width: 100%;
-  height: 550px;
-  ;
-  overflow: scroll;
-  border: 1px solid black;
-  border-radius: 20px;
-}
-
-figcaption {
-  margin-bottom: 30px;
-  display: none;
-}
 
 .bio {
   width: 70%;
@@ -207,6 +177,25 @@ figcaption {
 .bio p {
   font-size: 25px;
 }
+
+.gallery-descp {
+  width: 50%;
+  margin: 5px;
+}
+
+.gallery-more {
+  width: 100%;
+  height: 350px;
+
+  overflow: scroll;
+  overflow-x: hidden;
+  border: 1px solid black;
+
+  border-radius: 20px;
+
+  cursor: url('images/scroll.png'), auto;
+}
+
 
 @media screen and (max-width: 600px) {
   header {
@@ -256,33 +245,10 @@ figcaption {
     width: 100%;
   }
 
-  .more-gallery1 {
-
-    width: 100%;
-    height: 300px;
-    overflow: scroll;
-    border: 1px solid black;
-    border-radius: 20px;
-  }
-
-
-  .more-gallery2 {
-
-    width: 100%;
-    height: 400px;
-    ;
-    overflow: scroll;
-    border: 1px solid black;
-    border-radius: 20px;
-  }
 
   .more-content {
     width: 100%;
   }
 
-  .more-content img {
-    width: 100%;
-    height: 100%;
-  }
-}
 
+}
