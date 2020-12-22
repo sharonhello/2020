@@ -32,16 +32,16 @@ h3 {
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 25px;
   text-transform: uppercase;
 }
 
 .p1 {
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .p2 {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 a {
@@ -72,7 +72,7 @@ header {
 nav {
   display: flex;
   justify-content: space-between;
-  font-size: 25px;
+  font-size: 22px;
   margin: 0 50px;
 }
 
@@ -100,7 +100,7 @@ nav {
   width: 70%;
   text-align: center;
   margin: auto auto;
-  margin-bottom: 130px;
+  margin-bottom: 180px;
 }
 
 .description {
@@ -175,7 +175,7 @@ iframe {
 }
 
 .bio p {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .gallery-descp {
