@@ -3,7 +3,7 @@
 }
 
 ::selection {
-  background-color: orangered;
+  background-color: salmon;
   color: white;
 }
 
@@ -46,12 +46,12 @@ h2 {
 
 a {
   text-decoration: none;
-  color: red;
+  color: salmon;
   text-decoration: underline;
 }
 
 a:hover {
-  text-shadow: 2px 2px 8px red;
+  text-shadow: 2px 2px 8px salmon;
 }
 
 /* header a {
@@ -106,6 +106,7 @@ nav {
 .description {
   width: 60%;
   margin: auto auto;
+  margin-bottom: 50px;
   text-align: center;
 }
 
