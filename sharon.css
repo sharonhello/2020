@@ -212,13 +212,14 @@ iframe {
     width: 100%;
   }
 
-  .title {
+  /* .title {
     margin: 0;
-  }
+  } */
 
 
   nav {
-    display: block;
+    /* display: flex;
+    justify-content: space-between; */
     margin: 0;
   }
 
@@ -254,9 +255,9 @@ iframe {
     width: 100%;
   }
 
-  nav {
+  /* nav {
     display: block;
-  }
+  } */
 
   #main-content {
     width: 100%;
